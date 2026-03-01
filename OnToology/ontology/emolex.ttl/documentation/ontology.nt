@@ -1,4 +1,5 @@
 <https://w3id.org/def/emolex#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/emolex#> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/emolex/1.0> .
 <https://w3id.org/def/emolex#> <http://purl.org/dc/elements/1.1/creator> "David Chaves Fraga" .
 <https://w3id.org/def/emolex#> <http://purl.org/dc/elements/1.1/creator> "Patricia Martín Chozas" .
 <https://w3id.org/def/emolex#> <http://purl.org/dc/elements/1.1/title> "Ontology for describing emotional word metrics" .
@@ -96,7 +97,8 @@
 <https://w3id.org/def/emolex#affects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/emolex#Annotation> .
 <https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
-<https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta propiedad asigna una Anotación a una Lexical Entry."@en .
+<https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta propiedad asigna una Anotación a una Lexical Entry."@es .
+<https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#comment> "This property assigns an Annotation to a Lexical Entry."@en .
 <https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#label> "affecta a"@es .
 <https://w3id.org/def/emolex#affects> <http://www.w3.org/2000/01/rdf-schema#label> "affects"@en .
 # 
@@ -154,10 +156,10 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 <http://www.lexinfo.net/ontology/3.0/lexinfo#etimology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
 <http://www.lexinfo.net/ontology/3.0/lexinfo#etimology> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.lexinfo.net/ontology/3.0/lexinfo#gener
-<http://www.lexinfo.net/ontology/3.0/lexinfo#gener> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.lexinfo.net/ontology/3.0/lexinfo#gener> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
-<http://www.lexinfo.net/ontology/3.0/lexinfo#gener> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# http://www.lexinfo.net/ontology/3.0/lexinfo#gender
+<http://www.lexinfo.net/ontology/3.0/lexinfo#gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.lexinfo.net/ontology/3.0/lexinfo#gender> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/lemon/ontolex#LexicalEntry> .
+<http://www.lexinfo.net/ontology/3.0/lexinfo#gender> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # http://www.lexinfo.net/ontology/3.0/lexinfo#number
 <http://www.lexinfo.net/ontology/3.0/lexinfo#number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -179,7 +181,7 @@ _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # 
 # https://w3id.org/def/emolex#recognitionTime
 <https://w3id.org/def/emolex#recognitionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/def/emolex#recognitionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/emolex#RecognitionTime> .
+<https://w3id.org/def/emolex#recognitionTime> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/emolex#BehavioralMeasures> .
 <https://w3id.org/def/emolex#recognitionTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
 # https://w3id.org/def/emolex#sourceLiteral
@@ -388,6 +390,14 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/def/emolex#Awe> <http://www.w3.org/2000/01/rdf-schema#label> "Admiración"@es .
 <https://w3id.org/def/emolex#Awe> <http://www.w3.org/2000/01/rdf-schema#label> "Awe"@en .
 # 
+# https://w3id.org/def/emolex#BehavioralMeasures
+<https://w3id.org/def/emolex#BehavioralMeasures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#BehavioralMeasures> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
+<https://w3id.org/def/emolex#BehavioralMeasures> <http://www.w3.org/2000/01/rdf-schema#comment> "Behavioral measure obtained from the participant's response to the presentation of the word."@en .
+<https://w3id.org/def/emolex#BehavioralMeasures> <http://www.w3.org/2000/01/rdf-schema#comment> "Medida conductual obtenida a partir de la respuesta del participante ante la presentación de la palabra."@es .
+<https://w3id.org/def/emolex#BehavioralMeasures> <http://www.w3.org/2000/01/rdf-schema#label> "Behavioral Measures"@en .
+<https://w3id.org/def/emolex#BehavioralMeasures> <http://www.w3.org/2000/01/rdf-schema#label> "Medidas Conductuales"@es .
+# 
 # https://w3id.org/def/emolex#BodyExpression
 <https://w3id.org/def/emolex#BodyExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#BodyExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
@@ -451,6 +461,14 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "Continuous affective ratings describing the core properties of emotional word content."@en .
 <https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Dimensión emocional"@es .
 <https://w3id.org/def/emolex#EmotionalDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Emotional Dimension"@en .
+# 
+# https://w3id.org/def/emolex#ErrorLDT
+<https://w3id.org/def/emolex#ErrorLDT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#ErrorLDT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#BehavioralMeasures> .
+<https://w3id.org/def/emolex#ErrorLDT> <http://www.w3.org/2000/01/rdf-schema#comment> "Percentage of incorrect word identification in a lexical decision task."@en .
+<https://w3id.org/def/emolex#ErrorLDT> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."@es .
+<https://w3id.org/def/emolex#ErrorLDT> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de error de reconocimiento (LDT)"@es .
+<https://w3id.org/def/emolex#ErrorLDT> <http://www.w3.org/2000/01/rdf-schema#label> "Recognition Error Percentage"@en .
 # 
 # https://w3id.org/def/emolex#Evaluation
 <https://w3id.org/def/emolex#Evaluation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -564,23 +582,6 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#label> "Prototipicalidad"@es .
 <https://w3id.org/def/emolex#Prototipicality> <http://www.w3.org/2000/01/rdf-schema#label> "Prototypicality"@en .
 # 
-# https://w3id.org/def/emolex#RecognitionErrorPercentage
-<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#RecognitionTime> .
-<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "%E"@en .
-<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Percentage of incorrect word identification in a lexical decision task."@en .
-<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."@es .
-<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Porcentaje de error de reconocimiento (LDT)"@es .
-<https://w3id.org/def/emolex#RecognitionErrorPercentage> <http://www.w3.org/2000/01/rdf-schema#label> "Recognition Error Percentage"@en .
-# 
-# https://w3id.org/def/emolex#RecognitionTime
-<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#Annotation> .
-<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Tiempo transcurrido entre la presentación de la palabra y la respuesta del participante."@es .
-<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Time elapsed between the presentation of the word and the participant's response."@en .
-<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#label> "Recognition Time"@en .
-<https://w3id.org/def/emolex#RecognitionTime> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de reconocimiento"@es .
-# 
 # https://w3id.org/def/emolex#Relief
 <https://w3id.org/def/emolex#Relief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#Relief> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#DiscreteEmotionalCategory> .
@@ -616,6 +617,8 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://w3id.org/def/emolex#SocialInteraction
 <https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#SubjectiveDimension> .
+<https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the degree to which the word is related to relationships between people."@en .
+<https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al grado en que la palabra está relacionada con las relaciones entre personas."@es .
 <https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/2000/01/rdf-schema#label> "Interacción social"@es .
 <https://w3id.org/def/emolex#SocialInteraction> <http://www.w3.org/2000/01/rdf-schema#label> "Social Interaction"@en .
 # 
@@ -635,21 +638,21 @@ _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/def/emolex#Thought> <http://www.w3.org/2000/01/rdf-schema#label> "Pensamiento"@es .
 <https://w3id.org/def/emolex#Thought> <http://www.w3.org/2000/01/rdf-schema#label> "Thought"@en .
 # 
+# https://w3id.org/def/emolex#TimeLdt
+<https://w3id.org/def/emolex#TimeLdt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/emolex#TimeLdt> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#BehavioralMeasures> .
+<https://w3id.org/def/emolex#TimeLdt> <http://www.w3.org/2000/01/rdf-schema#comment> "La variable tiempo de respuesta en tareas de Decisión Léxica se refiere al tiempo que tarda un participante en reconocer si un estímulo presentado es una palabra real, esto es, que existe en el idioma."@es .
+<https://w3id.org/def/emolex#TimeLdt> <http://www.w3.org/2000/01/rdf-schema#comment> "The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language."@en .
+<https://w3id.org/def/emolex#TimeLdt> <http://www.w3.org/2000/01/rdf-schema#label> "Response time (TDL)"@en .
+<https://w3id.org/def/emolex#TimeLdt> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de respuesta (LDT)"@es .
+# 
 # https://w3id.org/def/emolex#TimeNaming
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#RecognitionTime> .
+<https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#BehavioralMeasures> .
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to the word naming time, that is, the time taken to read the word aloud."@en .
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#comment> "Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta."@es .
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#label> "Naming time"@en .
 <https://w3id.org/def/emolex#TimeNaming> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de nombrado"@es .
-# 
-# https://w3id.org/def/emolex#TimeTdl
-<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/emolex#RecognitionTime> .
-<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#comment> "La variable tiempo de respuesta en tareas de Decisión Léxica se refiere al tiempo que tarda un participante en reconocer si un estímulo presentado es una palabra real, esto es, que existe en el idioma."@es .
-<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#comment> "The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language."@en .
-<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#label> "Response time (TDL)"@en .
-<https://w3id.org/def/emolex#TimeTdl> <http://www.w3.org/2000/01/rdf-schema#label> "Tiempo de respuesta (LDT)"@es .
 # 
 # https://w3id.org/def/emolex#Valence
 <https://w3id.org/def/emolex#Valence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

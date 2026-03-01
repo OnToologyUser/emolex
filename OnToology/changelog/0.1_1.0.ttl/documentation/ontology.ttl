@@ -1,0 +1,292 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://w3id.org/def/och#addedAnnotationToEntity
+<http://w3id.org/def/och#addedAnnotationToEntity> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#addedClass
+<http://w3id.org/def/och#addedClass> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#addedDataProperty
+<http://w3id.org/def/och#addedDataProperty> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#addedDomain
+<http://w3id.org/def/och#addedDomain> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#addedDomainToProperty
+<http://w3id.org/def/och#addedDomainToProperty> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#newVersion
+<http://w3id.org/def/och#newVersion> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#prevVersion
+<http://w3id.org/def/och#prevVersion> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#removedClass
+<http://w3id.org/def/och#removedClass> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#removedDataProperty
+<http://w3id.org/def/och#removedDataProperty> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#removedDomain
+<http://w3id.org/def/och#removedDomain> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#removedDomainFromProperty
+<http://w3id.org/def/och#removedDomainFromProperty> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#sourceAddAnnotationToEntity
+<http://w3id.org/def/och#sourceAddAnnotationToEntity> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#sourceAddSubClass
+<http://w3id.org/def/och#sourceAddSubClass> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#sourceRemoveSubClass
+<http://w3id.org/def/och#sourceRemoveSubClass> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#targetAddAnnotationToEntity
+<http://w3id.org/def/och#targetAddAnnotationToEntity> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#targetAddSubClass
+<http://w3id.org/def/och#targetAddSubClass> rdf:type owl:AnnotationProperty .
+
+
+###  http://w3id.org/def/och#targetRemoveSubClass
+<http://w3id.org/def/och#targetRemoveSubClass> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://w3id.org/def/och#AddAnnotationToEntity
+<http://w3id.org/def/och#AddAnnotationToEntity> rdf:type owl:Class .
+
+
+###  http://w3id.org/def/och#AddClass
+<http://w3id.org/def/och#AddClass> rdf:type owl:Class .
+
+
+###  http://w3id.org/def/och#AddDataProperty
+<http://w3id.org/def/och#AddDataProperty> rdf:type owl:Class .
+
+
+###  http://w3id.org/def/och#AddDomain
+<http://w3id.org/def/och#AddDomain> rdf:type owl:Class .
+
+
+###  http://w3id.org/def/och#AddSubClass
+<http://w3id.org/def/och#AddSubClass> rdf:type owl:Class .
+
+
+###  http://w3id.org/def/och#Changelog
+<http://w3id.org/def/och#Changelog> rdf:type owl:Class .
+
+
+###  http://w3id.org/def/och#RemoveClass
+<http://w3id.org/def/och#RemoveClass> rdf:type owl:Class .
+
+
+###  http://w3id.org/def/och#RemoveDataProperty
+<http://w3id.org/def/och#RemoveDataProperty> rdf:type owl:Class .
+
+
+###  http://w3id.org/def/och#RemoveDomain
+<http://w3id.org/def/och#RemoveDomain> rdf:type owl:Class .
+
+
+###  http://w3id.org/def/och#RemoveSubClass
+<http://w3id.org/def/och#RemoveSubClass> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/def/emolex-changesaate1
+<https://w3id.org/def/emolex-changesaate1> rdf:type owl:NamedIndividual ,
+                                                    <http://w3id.org/def/och#AddAnnotationToEntity> ;
+                                           <http://w3id.org/def/och#addedAnnotationToEntity> rdfs:comment ;
+                                           <http://w3id.org/def/och#sourceAddAnnotationToEntity> <https://w3id.org/def/emolex#affects> ;
+                                           <http://w3id.org/def/och#targetAddAnnotationToEntity> "This property assigns an Annotation to a Lexical Entry."@en .
+
+
+###  https://w3id.org/def/emolex-changesaate2
+<https://w3id.org/def/emolex-changesaate2> rdf:type owl:NamedIndividual ,
+                                                    <http://w3id.org/def/och#AddAnnotationToEntity> ;
+                                           <http://w3id.org/def/och#addedAnnotationToEntity> rdfs:comment ;
+                                           <http://w3id.org/def/och#sourceAddAnnotationToEntity> <https://w3id.org/def/emolex#ErrorLDT> ;
+                                           <http://w3id.org/def/och#targetAddAnnotationToEntity> "Percentage of incorrect word identification in a lexical decision task."@en .
+
+
+###  https://w3id.org/def/emolex-changesaate3
+<https://w3id.org/def/emolex-changesaate3> rdf:type owl:NamedIndividual ,
+                                                    <http://w3id.org/def/och#AddAnnotationToEntity> ;
+                                           <http://w3id.org/def/och#addedAnnotationToEntity> rdfs:comment ;
+                                           <http://w3id.org/def/och#sourceAddAnnotationToEntity> <https://w3id.org/def/emolex#BehavioralMeasures> ;
+                                           <http://w3id.org/def/och#targetAddAnnotationToEntity> "Medida conductual obtenida a partir de la respuesta del participante ante la presentación de la palabra."@es .
+
+
+###  https://w3id.org/def/emolex-changesaate4
+<https://w3id.org/def/emolex-changesaate4> rdf:type owl:NamedIndividual ,
+                                                    <http://w3id.org/def/och#AddAnnotationToEntity> ;
+                                           <http://w3id.org/def/och#addedAnnotationToEntity> rdfs:comment ;
+                                           <http://w3id.org/def/och#sourceAddAnnotationToEntity> <https://w3id.org/def/emolex#BehavioralMeasures> ;
+                                           <http://w3id.org/def/och#targetAddAnnotationToEntity> "Behavioral measure obtained from the participant's response to the presentation of the word."@en .
+
+
+###  https://w3id.org/def/emolex-changesaate5
+<https://w3id.org/def/emolex-changesaate5> rdf:type owl:NamedIndividual ,
+                                                    <http://w3id.org/def/och#AddAnnotationToEntity> ;
+                                           <http://w3id.org/def/och#addedAnnotationToEntity> rdfs:label ;
+                                           <http://w3id.org/def/och#sourceAddAnnotationToEntity> <https://w3id.org/def/emolex#BehavioralMeasures> ;
+                                           <http://w3id.org/def/och#targetAddAnnotationToEntity> "Behavioral Measures"@en .
+
+
+###  https://w3id.org/def/emolex-changesaate6
+<https://w3id.org/def/emolex-changesaate6> rdf:type owl:NamedIndividual ,
+                                                    <http://w3id.org/def/och#AddAnnotationToEntity> ;
+                                           <http://w3id.org/def/och#addedAnnotationToEntity> rdfs:label ;
+                                           <http://w3id.org/def/och#sourceAddAnnotationToEntity> <https://w3id.org/def/emolex#BehavioralMeasures> ;
+                                           <http://w3id.org/def/och#targetAddAnnotationToEntity> "Medidas Conductuales"@es .
+
+
+###  https://w3id.org/def/emolex-changesaate7
+<https://w3id.org/def/emolex-changesaate7> rdf:type owl:NamedIndividual ,
+                                                    <http://w3id.org/def/och#AddAnnotationToEntity> ;
+                                           <http://w3id.org/def/och#addedAnnotationToEntity> rdfs:comment ;
+                                           <http://w3id.org/def/och#sourceAddAnnotationToEntity> <https://w3id.org/def/emolex#:SocialInteraction> ;
+                                           <http://w3id.org/def/och#targetAddAnnotationToEntity> "It refers to the degree to which the word is related to relationships between people."@en .
+
+
+###  https://w3id.org/def/emolex-changesaate8
+<https://w3id.org/def/emolex-changesaate8> rdf:type owl:NamedIndividual ,
+                                                    <http://w3id.org/def/och#AddAnnotationToEntity> ;
+                                           <http://w3id.org/def/och#addedAnnotationToEntity> rdfs:comment ;
+                                           <http://w3id.org/def/och#sourceAddAnnotationToEntity> <https://w3id.org/def/emolex#:SocialInteraction> ;
+                                           <http://w3id.org/def/och#targetAddAnnotationToEntity> "Se refiere al grado en que la palabra está relacionada con las relaciones entre personas."@es .
+
+
+###  https://w3id.org/def/emolex-changesac1
+<https://w3id.org/def/emolex-changesac1> rdf:type owl:NamedIndividual ,
+                                                  <http://w3id.org/def/och#AddClass> ;
+                                         <http://w3id.org/def/och#addedClass> <https://w3id.org/def/emolex#ErrorLDT> .
+
+
+###  https://w3id.org/def/emolex-changesac2
+<https://w3id.org/def/emolex-changesac2> rdf:type owl:NamedIndividual ,
+                                                  <http://w3id.org/def/och#AddClass> ;
+                                         <http://w3id.org/def/och#addedClass> <https://w3id.org/def/emolex#BehavioralMeasures> .
+
+
+###  https://w3id.org/def/emolex-changesac3
+<https://w3id.org/def/emolex-changesac3> rdf:type owl:NamedIndividual ,
+                                                  <http://w3id.org/def/och#AddClass> ;
+                                         <http://w3id.org/def/och#addedClass> <https://w3id.org/def/emolex#TimeLdt> .
+
+
+###  https://w3id.org/def/emolex-changesad1
+<https://w3id.org/def/emolex-changesad1> rdf:type owl:NamedIndividual ,
+                                                  <http://w3id.org/def/och#AddDomain> ;
+                                         <http://w3id.org/def/och#addedDomain> <https://w3id.org/def/emolex#BehavioralMeasures> ;
+                                         <http://w3id.org/def/och#addedDomainToProperty> <https://w3id.org/def/emolex#recognitionTime> .
+
+
+###  https://w3id.org/def/emolex-changesadp1
+<https://w3id.org/def/emolex-changesadp1> rdf:type owl:NamedIndividual ,
+                                                   <http://w3id.org/def/och#AddDataProperty> ;
+                                          <http://w3id.org/def/och#addedDataProperty> <http://www.lexinfo.net/ontology/3.0/lexinfo#gender> .
+
+
+###  https://w3id.org/def/emolex-changesasc1
+<https://w3id.org/def/emolex-changesasc1> rdf:type owl:NamedIndividual ,
+                                                   <http://w3id.org/def/och#AddSubClass> ;
+                                          <http://w3id.org/def/och#sourceAddSubClass> <https://w3id.org/def/emolex#ErrorLDT> ;
+                                          <http://w3id.org/def/och#targetAddSubClass> <https://w3id.org/def/emolex#BehavioralMeasures> .
+
+
+###  https://w3id.org/def/emolex-changesasc2
+<https://w3id.org/def/emolex-changesasc2> rdf:type owl:NamedIndividual ,
+                                                   <http://w3id.org/def/och#AddSubClass> ;
+                                          <http://w3id.org/def/och#sourceAddSubClass> <https://w3id.org/def/emolex#TimeNaming> ;
+                                          <http://w3id.org/def/och#targetRemoveSubClass> <https://w3id.org/def/emolex#BehavioralMeasures> .
+
+
+###  https://w3id.org/def/emolex-changesasc3
+<https://w3id.org/def/emolex-changesasc3> rdf:type owl:NamedIndividual ,
+                                                   <http://w3id.org/def/och#AddSubClass> ;
+                                          <http://w3id.org/def/och#sourceAddSubClass> <https://w3id.org/def/emolex#TimeLdt> ;
+                                          <http://w3id.org/def/och#targetRemoveSubClass> <https://w3id.org/def/emolex#BehavioralMeasures> .
+
+
+###  https://w3id.org/def/emolex-changeschangelog_v1
+<https://w3id.org/def/emolex-changeschangelog_v1> rdf:type owl:NamedIndividual ,
+                                                           <http://w3id.org/def/och#Changelog> ;
+                                                  <http://w3id.org/def/och#newVersion> <https://w3id.org/def/emolex/1.0> ;
+                                                  <http://w3id.org/def/och#prevVersion> <https://w3id.org/def/emolex/0.1> .
+
+
+###  https://w3id.org/def/emolex-changesrc1
+<https://w3id.org/def/emolex-changesrc1> rdf:type owl:NamedIndividual ,
+                                                  <http://w3id.org/def/och#RemoveClass> ;
+                                         <http://w3id.org/def/och#removedClass> <https://w3id.org/def/emolex#RecognitionErrorPercentage> .
+
+
+###  https://w3id.org/def/emolex-changesrc2
+<https://w3id.org/def/emolex-changesrc2> rdf:type owl:NamedIndividual ,
+                                                  <http://w3id.org/def/och#RemoveClass> ;
+                                         <http://w3id.org/def/och#removedClass> <https://w3id.org/def/emolex#RecognitionTime> .
+
+
+###  https://w3id.org/def/emolex-changesrc3
+<https://w3id.org/def/emolex-changesrc3> rdf:type owl:NamedIndividual ,
+                                                  <http://w3id.org/def/och#RemoveClass> ;
+                                         <http://w3id.org/def/och#addedClass> <https://w3id.org/def/emolex#TimeTdl> .
+
+
+###  https://w3id.org/def/emolex-changesrd1
+<https://w3id.org/def/emolex-changesrd1> rdf:type owl:NamedIndividual ,
+                                                  <http://w3id.org/def/och#RemoveDomain> ;
+                                         <http://w3id.org/def/och#removedDomain> <https://w3id.org/def/emolex#RecognitionTime> ;
+                                         <http://w3id.org/def/och#removedDomainFromProperty> <https://w3id.org/def/emolex#recognitionTime> .
+
+
+###  https://w3id.org/def/emolex-changesrdp1
+<https://w3id.org/def/emolex-changesrdp1> rdf:type owl:NamedIndividual ,
+                                                   <http://w3id.org/def/och#RemoveDataProperty> ;
+                                          <http://w3id.org/def/och#removedDataProperty> <http://www.lexinfo.net/ontology/3.0/lexinfo#gener> .
+
+
+###  https://w3id.org/def/emolex-changesrsc1
+<https://w3id.org/def/emolex-changesrsc1> rdf:type owl:NamedIndividual ,
+                                                   <http://w3id.org/def/och#RemoveSubClass> ;
+                                          <http://w3id.org/def/och#sourceRemoveSubClass> <https://w3id.org/def/emolex#TimeNaming> ;
+                                          <http://w3id.org/def/och#targetRemoveSubClass> <https://w3id.org/def/emolex#RecognitionTime> .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

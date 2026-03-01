@@ -30,6 +30,9 @@ This section provides details for each class and property defined by Ontology fo
          <a href="#Awe" title="https://w3id.org/def/emolex#Awe">Awe</a>
       </li>
       <li>
+         <a href="#BehavioralMeasures" title="https://w3id.org/def/emolex#BehavioralMeasures">Behavioral Measures</a>
+      </li>
+      <li>
          <a href="#BodyExpression" title="https://w3id.org/def/emolex#BodyExpression">Body Expression</a>
       </li>
       <li>
@@ -105,20 +108,16 @@ This section provides details for each class and property defined by Ontology fo
          <a href="#Pleasure" title="https://w3id.org/def/emolex#Pleasure">Pleasure</a>
       </li>
       <li>
-         <a href="#Prototipicality" title="https://w3id.org/def/emolex#Prototipicality">Prototipicality</a>
+         <a href="#Prototipicality" title="https://w3id.org/def/emolex#Prototipicality">Prototypicality</a>
       </li>
       <li>
-         <a href="#RecognitionErrorPercentage"
-            title="https://w3id.org/def/emolex#RecognitionErrorPercentage">Recognition Error Percentage</a>
-      </li>
-      <li>
-         <a href="#RecognitionTime" title="https://w3id.org/def/emolex#RecognitionTime">Recognition Time</a>
+         <a href="#ErrorLDT" title="https://w3id.org/def/emolex#ErrorLDT">Recognition Error Percentage</a>
       </li>
       <li>
          <a href="#Relief" title="https://w3id.org/def/emolex#Relief">Relief</a>
       </li>
       <li>
-         <a href="#TimeTdl" title="https://w3id.org/def/emolex#TimeTdl">Response time (TDL)</a>
+         <a href="#TimeLdt" title="https://w3id.org/def/emolex#TimeLdt">Response time (TDL)</a>
       </li>
       <li>
          <a href="#Sadness" title="https://w3id.org/def/emolex#Sadness">Sadness</a>
@@ -226,11 +225,11 @@ This section provides details for each class and property defined by Ontology fo
       <dl class="description">
          <dt>has sub-classes</dt>
          <dd>
-            <a href="#DiscreteEmotionalCategory"
+            <a href="#BehavioralMeasures" title="https://w3id.org/def/emolex#BehavioralMeasures">Behavioral Measures</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#DiscreteEmotionalCategory"
                title="https://w3id.org/def/emolex#DiscreteEmotionalCategory">Discrete emotional category</a>
             <sup class="type-c" title="class">c</sup>, <a href="#EmotionalDimension" title="https://w3id.org/def/emolex#EmotionalDimension">Emotional Dimension</a>
             <sup class="type-c" title="class">c</sup>, <a href="#ObjectiveEstimation" title="https://w3id.org/def/emolex#ObjectiveEstimation">Objective Estimation</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#RecognitionTime" title="https://w3id.org/def/emolex#RecognitionTime">Recognition Time</a>
             <sup class="type-c" title="class">c</sup>, <a href="#SubjectiveDimension" title="https://w3id.org/def/emolex#SubjectiveDimension">Subjective Dimension</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -308,6 +307,36 @@ This section provides details for each class and property defined by Ontology fo
             <a href="#DiscreteEmotionalCategory"
                title="https://w3id.org/def/emolex#DiscreteEmotionalCategory">Discrete emotional category</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="BehavioralMeasures">
+      <h3>Behavioral Measures<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/emolex#BehavioralMeasures</p>
+      <div class="comment">
+         <span class="markdown">Behavioral measure obtained from the participant's response to the presentation of the word.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Annotation" title="https://w3id.org/def/emolex#Annotation">Annotation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#TimeNaming" title="https://w3id.org/def/emolex#TimeNaming">Naming time</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#ErrorLDT" title="https://w3id.org/def/emolex#ErrorLDT">Recognition Error Percentage</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#TimeLdt" title="https://w3id.org/def/emolex#TimeLdt">Response time (TDL)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#recognitionTime" title="https://w3id.org/def/emolex#recognitionTime">recognition time</a>
+            <sup class="type-dp" title="data property">dp</sup>
          </dd>
       </dl>
    </div>
@@ -391,6 +420,9 @@ This section provides details for each class and property defined by Ontology fo
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/emolex#DiscreteEmotionalCategory</p>
+      <div class="comment">
+         <span class="markdown">Continuous ratings indicating the extent to which a word is associated with specific basic emotions.</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
@@ -459,6 +491,9 @@ This section provides details for each class and property defined by Ontology fo
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/emolex#EmotionalDimension</p>
+      <div class="comment">
+         <span class="markdown">Continuous affective ratings describing the core properties of emotional word content.</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
@@ -472,7 +507,7 @@ This section provides details for each class and property defined by Ontology fo
             <sup class="type-c" title="class">c</sup>, <a href="#Evaluation" title="https://w3id.org/def/emolex#Evaluation">Evaluation</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Feeling" title="https://w3id.org/def/emolex#Feeling">Feeling</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Interoception" title="https://w3id.org/def/emolex#Interoception">Interoception</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Prototipicality" title="https://w3id.org/def/emolex#Prototipicality">Prototipicality</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Prototipicality" title="https://w3id.org/def/emolex#Prototipicality">Prototypicality</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Valence" title="https://w3id.org/def/emolex#Valence">Valence</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -615,7 +650,7 @@ This section provides details for each class and property defined by Ontology fo
       <p>
          <strong>IRI:</strong> https://w3id.org/def/emolex#Imageability</p>
       <div class="comment">
-         <span class="markdown">Imaginability refers to the ease with which a mental image of the concept designated by the word can be formed.</span>
+         <span class="markdown">Imageability refers to the ease with which a mental image of the concept designated by the word can be formed.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -679,10 +714,10 @@ This section provides details for each class and property defined by Ontology fo
             <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#etimology"
                title="http://www.lexinfo.net/ontology/3.0/lexinfo#etimology">etimology</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.w3.org/ns/lemon/ontolex#evokes" title="http://www.w3.org/ns/lemon/ontolex#evokes">evokes</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#gener"
-               title="http://www.lexinfo.net/ontology/3.0/lexinfo#gener">gener</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#gender"
+               title="http://www.lexinfo.net/ontology/3.0/lexinfo#gender">gender</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.w3.org/ns/lemon/lime#language" title="http://www.w3.org/ns/lemon/lime#language">language</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://www.w3.org/ns/lemon/ontolex#lexicalForm" title="http://www.w3.org/ns/lemon/ontolex#lexicalForm">lexical form</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/lemon/ontolex#lexicalForm" title="http://www.w3.org/ns/lemon/ontolex#lexicalForm">lexical form</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech"
                title="http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech">part of speech</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://www.w3.org/ns/lemon/vartrans#translatableAs"
@@ -756,12 +791,12 @@ This section provides details for each class and property defined by Ontology fo
       <p>
          <strong>IRI:</strong> https://w3id.org/def/emolex#TimeNaming</p>
       <div class="comment">
-         <span class="markdown">Se refiere al tiempo de nombrado de la palabra, esto es, de lectura de la palabra en voz alta.</span>
+         <span class="markdown">It refers to the word naming time, that is, the time taken to read the word aloud.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#RecognitionTime" title="https://w3id.org/def/emolex#RecognitionTime">Recognition Time</a>
+            <a href="#BehavioralMeasures" title="https://w3id.org/def/emolex#BehavioralMeasures">Behavioral Measures</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -791,6 +826,9 @@ This section provides details for each class and property defined by Ontology fo
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/emolex#ObjectiveEstimation</p>
+      <div class="comment">
+         <span class="markdown">Estimated value based on objective data.</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
@@ -825,7 +863,7 @@ This section provides details for each class and property defined by Ontology fo
       </dl>
    </div>
    <div class="entity" id="Prototipicality">
-      <h3>Prototipicality<sup class="type-c" title="class">c</sup>
+      <h3>Prototypicality<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
@@ -842,49 +880,21 @@ This section provides details for each class and property defined by Ontology fo
          </dd>
       </dl>
    </div>
-   <div class="entity" id="RecognitionErrorPercentage">
+   <div class="entity" id="ErrorLDT">
       <h3>Recognition Error Percentage<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/emolex#RecognitionErrorPercentage</p>
+         <strong>IRI:</strong> https://w3id.org/def/emolex#ErrorLDT</p>
       <div class="comment">
-         <span class="markdown">%E</span>
+         <span class="markdown">Percentage of incorrect word identification in a lexical decision task.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#RecognitionTime" title="https://w3id.org/def/emolex#RecognitionTime">Recognition Time</a>
+            <a href="#BehavioralMeasures" title="https://w3id.org/def/emolex#BehavioralMeasures">Behavioral Measures</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="RecognitionTime">
-      <h3>Recognition Time<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/emolex#RecognitionTime</p>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Annotation" title="https://w3id.org/def/emolex#Annotation">Annotation</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>has sub-classes</dt>
-         <dd>
-            <a href="#TimeNaming" title="https://w3id.org/def/emolex#TimeNaming">Naming time</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#RecognitionErrorPercentage"
-               title="https://w3id.org/def/emolex#RecognitionErrorPercentage">Recognition Error Percentage</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#TimeTdl" title="https://w3id.org/def/emolex#TimeTdl">Response time (TDL)</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#recognitionTime" title="https://w3id.org/def/emolex#recognitionTime">recognition time</a>
-            <sup class="type-dp" title="data property">dp</sup>
          </dd>
       </dl>
    </div>
@@ -907,20 +917,20 @@ This section provides details for each class and property defined by Ontology fo
          </dd>
       </dl>
    </div>
-   <div class="entity" id="TimeTdl">
+   <div class="entity" id="TimeLdt">
       <h3>Response time (TDL)<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/emolex#TimeTdl</p>
+         <strong>IRI:</strong> https://w3id.org/def/emolex#TimeLdt</p>
       <div class="comment">
          <span class="markdown">The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#RecognitionTime" title="https://w3id.org/def/emolex#RecognitionTime">Recognition Time</a>
+            <a href="#BehavioralMeasures" title="https://w3id.org/def/emolex#BehavioralMeasures">Behavioral Measures</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -988,6 +998,9 @@ This section provides details for each class and property defined by Ontology fo
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/emolex#SocialInteraction</p>
+      <div class="comment">
+         <span class="markdown">It refers to the degree to which the word is related to relationships between people.</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
@@ -1003,6 +1016,9 @@ This section provides details for each class and property defined by Ontology fo
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/emolex#SubjectiveDimension</p>
+      <div class="comment">
+         <span class="markdown">Continuous ratings indicating the extent to which a word is associated with dimensions other than emotionality.</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
@@ -1086,6 +1102,11 @@ This section provides details for each class and property defined by Ontology fo
          </a>
       </li>
       <li>
+         <a href="#http://www.w3.org/ns/lemon/lime#language" title="http://www.w3.org/ns/lemon/lime#language">
+            <span>language</span>
+         </a>
+      </li>
+      <li>
          <a href="#http://www.w3.org/ns/lemon/ontolex#lexicalForm" title="http://www.w3.org/ns/lemon/ontolex#lexicalForm">
             <span>lexical form</span>
          </a>
@@ -1115,7 +1136,7 @@ This section provides details for each class and property defined by Ontology fo
       <p>
          <strong>IRI:</strong> https://w3id.org/def/emolex#affects</p>
       <div class="comment">
-         <span class="markdown">Esta propiedad asigna una Anotación a una Lexical Entry.</span>
+         <span class="markdown">This property assigns an Annotation to a Lexical Entry.</span>
       </div>
       <div class="description">
          <dl>
@@ -1203,6 +1224,32 @@ This section provides details for each class and property defined by Ontology fo
                   title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/ns/lemon/lime#language">
+      <h3>language<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/ns/lemon/lime#language</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+                  target="_blank"
+                  title="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">lang string</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is also defined as</dt>
+            <dd>data property</dd>
          </dl>
       </div>
    </div>
@@ -1339,14 +1386,9 @@ This section provides details for each class and property defined by Ontology fo
          </a>
       </li>
       <li>
-         <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#gener"
-            title="http://www.lexinfo.net/ontology/3.0/lexinfo#gener">
-            <span>gener</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/ns/lemon/lime#language" title="http://www.w3.org/ns/lemon/lime#language">
-            <span>language</span>
+         <a href="#http://www.lexinfo.net/ontology/3.0/lexinfo#gender"
+            title="http://www.lexinfo.net/ontology/3.0/lexinfo#gender">
+            <span>gender</span>
          </a>
       </li>
       <li>
@@ -1412,13 +1454,13 @@ This section provides details for each class and property defined by Ontology fo
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://www.lexinfo.net/ontology/3.0/lexinfo#gener">
-      <h3>gener<sup class="type-dp" title="data property">dp</sup>
+   <div class="entity" id="http://www.lexinfo.net/ontology/3.0/lexinfo#gender">
+      <h3>gender<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.lexinfo.net/ontology/3.0/lexinfo#gener</p>
+         <strong>IRI:</strong> http://www.lexinfo.net/ontology/3.0/lexinfo#gender</p>
       <div class="description">
          <dl>
             <dt>has domain</dt>
@@ -1431,29 +1473,6 @@ This section provides details for each class and property defined by Ontology fo
                <a href="http://www.w3.org/2001/XMLSchema#string"
                   target="_blank"
                   title="http://www.w3.org/2001/XMLSchema#string">string</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="http://www.w3.org/ns/lemon/lime#language">
-      <h3>language<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/ns/lemon/lime#language</p>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#http://www.w3.org/ns/lemon/ontolex#LexicalEntry" title="http://www.w3.org/ns/lemon/ontolex#LexicalEntry">lexical entry</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
-                  target="_blank"
-                  title="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">lang string</a>
             </dd>
          </dl>
       </div>
@@ -1537,7 +1556,7 @@ This section provides details for each class and property defined by Ontology fo
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#RecognitionTime" title="https://w3id.org/def/emolex#RecognitionTime">Recognition Time</a>
+               <a href="#BehavioralMeasures" title="https://w3id.org/def/emolex#BehavioralMeasures">Behavioral Measures</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>

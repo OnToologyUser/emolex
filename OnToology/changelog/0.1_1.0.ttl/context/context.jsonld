@@ -1,0 +1,19 @@
+{
+  "@context" : {
+    "emolex_changes" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#@prefix emolex_changes"
+    },
+    "och" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#och"
+    },
+    "emolex" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#@prefix emolex"
+    },
+    "rdfs" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#@prefix rdfs"
+    },
+    "lexinfo" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#@prefix lexinfo"
+    }
+  }
+}

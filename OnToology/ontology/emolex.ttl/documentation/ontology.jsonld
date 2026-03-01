@@ -183,7 +183,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.lexinfo.net/ontology/3.0/lexinfo#gener",
+  "@id" : "http://www.lexinfo.net/ontology/3.0/lexinfo#gender",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.w3.org/ns/lemon/ontolex#LexicalEntry"
@@ -464,6 +464,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Ontology for describing emotional word metrics"
   } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/def/emolex/1.0"
+  } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "1.0"
   } ]
@@ -596,6 +599,26 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/emolex#DiscreteEmotionalCategory"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex#BehavioralMeasures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Behavioral measure obtained from the participant's response to the presentation of the word."
+  }, {
+    "@language" : "es",
+    "@value" : "Medida conductual obtenida a partir de la respuesta del participante ante la presentación de la palabra."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Behavioral Measures"
+  }, {
+    "@language" : "es",
+    "@value" : "Medidas Conductuales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/emolex#Annotation"
   } ]
 }, {
   "@id" : "https://w3id.org/def/emolex#BodyExpression",
@@ -756,6 +779,26 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/emolex#Annotation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex#ErrorLDT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of incorrect word identification in a lexical decision task."
+  }, {
+    "@language" : "es",
+    "@value" : "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Porcentaje de error de reconocimiento (LDT)"
+  }, {
+    "@language" : "en",
+    "@value" : "Recognition Error Percentage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
   } ]
 }, {
   "@id" : "https://w3id.org/def/emolex#Evaluation",
@@ -1038,49 +1081,6 @@
     "@id" : "https://w3id.org/def/emolex#EmotionalDimension"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/emolex#RecognitionErrorPercentage",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "%E"
-  }, {
-    "@language" : "en",
-    "@value" : "Percentage of incorrect word identification in a lexical decision task."
-  }, {
-    "@language" : "es",
-    "@value" : "Porcentaje de identificación incorrecta de la palabra en una tarea de decisión léxica."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "Porcentaje de error de reconocimiento (LDT)"
-  }, {
-    "@language" : "en",
-    "@value" : "Recognition Error Percentage"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/emolex#RecognitionTime",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Tiempo transcurrido entre la presentación de la palabra y la respuesta del participante."
-  }, {
-    "@language" : "en",
-    "@value" : "Time elapsed between the presentation of the word and the participant's response."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Recognition Time"
-  }, {
-    "@language" : "es",
-    "@value" : "Tiempo de reconocimiento"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/emolex#Annotation"
-  } ]
-}, {
   "@id" : "https://w3id.org/def/emolex#Relief",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1163,6 +1163,13 @@
 }, {
   "@id" : "https://w3id.org/def/emolex#SocialInteraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree to which the word is related to relationships between people."
+  }, {
+    "@language" : "es",
+    "@value" : "Se refiere al grado en que la palabra está relacionada con las relaciones entre personas."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Interacción social"
@@ -1214,6 +1221,26 @@
     "@id" : "https://w3id.org/def/emolex#SubjectiveDimension"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/emolex#TimeLdt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La variable tiempo de respuesta en tareas de Decisión Léxica se refiere al tiempo que tarda un participante en reconocer si un estímulo presentado es una palabra real, esto es, que existe en el idioma."
+  }, {
+    "@language" : "en",
+    "@value" : "The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Response time (TDL)"
+  }, {
+    "@language" : "es",
+    "@value" : "Tiempo de respuesta (LDT)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/emolex#TimeNaming",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1231,27 +1258,7 @@
     "@value" : "Tiempo de nombrado"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/emolex#TimeTdl",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "La variable tiempo de respuesta en tareas de Decisión Léxica se refiere al tiempo que tarda un participante en reconocer si un estímulo presentado es una palabra real, esto es, que existe en el idioma."
-  }, {
-    "@language" : "en",
-    "@value" : "The variable response time in Lexical Decision tasks refers to the time it takes for a participant to recognize whether a presented stimulus is a real word, that is, one that exists in the language."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Response time (TDL)"
-  }, {
-    "@language" : "es",
-    "@value" : "Tiempo de respuesta (LDT)"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
   } ]
 }, {
   "@id" : "https://w3id.org/def/emolex#Valence",
@@ -1277,8 +1284,11 @@
   "@id" : "https://w3id.org/def/emolex#affects",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
+    "@language" : "es",
     "@value" : "Esta propiedad asigna una Anotación a una Lexical Entry."
+  }, {
+    "@language" : "en",
+    "@value" : "This property assigns an Annotation to a Lexical Entry."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/def/emolex#Annotation"
@@ -1297,7 +1307,7 @@
   "@id" : "https://w3id.org/def/emolex#recognitionTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"

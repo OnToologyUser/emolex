@@ -1,0 +1,369 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://w3id.org/def/och#AddAnnotationToEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#AddClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#AddDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#AddDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#AddSubClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#Changelog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#RemoveClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#RemoveDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#RemoveDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#RemoveSubClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://w3id.org/def/och#addedAnnotationToEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#addedClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#addedDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#addedDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#addedDomainToProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#newVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#prevVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#removedClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#removedDataProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#removedDomain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#removedDomainFromProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#sourceAddAnnotationToEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#sourceAddSubClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#sourceRemoveSubClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#targetAddAnnotationToEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#targetAddSubClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/och#targetRemoveSubClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesaate1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedAnnotationToEntity" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://w3id.org/def/och#sourceAddAnnotationToEntity" : [ {
+    "@id" : "https://w3id.org/def/emolex#affects"
+  } ],
+  "http://w3id.org/def/och#targetAddAnnotationToEntity" : [ {
+    "@language" : "en",
+    "@value" : "This property assigns an Annotation to a Lexical Entry."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddAnnotationToEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesaate2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedAnnotationToEntity" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://w3id.org/def/och#sourceAddAnnotationToEntity" : [ {
+    "@id" : "https://w3id.org/def/emolex#ErrorLDT"
+  } ],
+  "http://w3id.org/def/och#targetAddAnnotationToEntity" : [ {
+    "@language" : "en",
+    "@value" : "Percentage of incorrect word identification in a lexical decision task."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddAnnotationToEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesaate3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedAnnotationToEntity" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://w3id.org/def/och#sourceAddAnnotationToEntity" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ],
+  "http://w3id.org/def/och#targetAddAnnotationToEntity" : [ {
+    "@language" : "es",
+    "@value" : "Medida conductual obtenida a partir de la respuesta del participante ante la presentación de la palabra."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddAnnotationToEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesaate4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedAnnotationToEntity" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://w3id.org/def/och#sourceAddAnnotationToEntity" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ],
+  "http://w3id.org/def/och#targetAddAnnotationToEntity" : [ {
+    "@language" : "en",
+    "@value" : "Behavioral measure obtained from the participant's response to the presentation of the word."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddAnnotationToEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesaate5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedAnnotationToEntity" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ],
+  "http://w3id.org/def/och#sourceAddAnnotationToEntity" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ],
+  "http://w3id.org/def/och#targetAddAnnotationToEntity" : [ {
+    "@language" : "en",
+    "@value" : "Behavioral Measures"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddAnnotationToEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesaate6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedAnnotationToEntity" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ],
+  "http://w3id.org/def/och#sourceAddAnnotationToEntity" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ],
+  "http://w3id.org/def/och#targetAddAnnotationToEntity" : [ {
+    "@language" : "es",
+    "@value" : "Medidas Conductuales"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddAnnotationToEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesaate7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedAnnotationToEntity" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://w3id.org/def/och#sourceAddAnnotationToEntity" : [ {
+    "@id" : "https://w3id.org/def/emolex#:SocialInteraction"
+  } ],
+  "http://w3id.org/def/och#targetAddAnnotationToEntity" : [ {
+    "@language" : "en",
+    "@value" : "It refers to the degree to which the word is related to relationships between people."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddAnnotationToEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesaate8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedAnnotationToEntity" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ],
+  "http://w3id.org/def/och#sourceAddAnnotationToEntity" : [ {
+    "@id" : "https://w3id.org/def/emolex#:SocialInteraction"
+  } ],
+  "http://w3id.org/def/och#targetAddAnnotationToEntity" : [ {
+    "@language" : "es",
+    "@value" : "Se refiere al grado en que la palabra está relacionada con las relaciones entre personas."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddAnnotationToEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesac1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#ErrorLDT"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddClass"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesac2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddClass"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesac3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#TimeLdt"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddClass"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesad1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedDomain" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ],
+  "http://w3id.org/def/och#addedDomainToProperty" : [ {
+    "@id" : "https://w3id.org/def/emolex#recognitionTime"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddDomain"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesadp1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedDataProperty" : [ {
+    "@id" : "http://www.lexinfo.net/ontology/3.0/lexinfo#gender"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesasc1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#sourceAddSubClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#ErrorLDT"
+  } ],
+  "http://w3id.org/def/och#targetAddSubClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddSubClass"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesasc2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#sourceAddSubClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#TimeNaming"
+  } ],
+  "http://w3id.org/def/och#targetRemoveSubClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddSubClass"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesasc3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#sourceAddSubClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#TimeLdt"
+  } ],
+  "http://w3id.org/def/och#targetRemoveSubClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#AddSubClass"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changeschangelog_v1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#newVersion" : [ {
+    "@id" : "https://w3id.org/def/emolex/1.0"
+  } ],
+  "http://w3id.org/def/och#prevVersion" : [ {
+    "@id" : "https://w3id.org/def/emolex/0.1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#Changelog"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesrc1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#removedClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#RecognitionErrorPercentage"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#RemoveClass"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesrc2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#removedClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#RemoveClass"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesrc3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#addedClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#TimeTdl"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#RemoveClass"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesrd1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#removedDomain" : [ {
+    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
+  } ],
+  "http://w3id.org/def/och#removedDomainFromProperty" : [ {
+    "@id" : "https://w3id.org/def/emolex#recognitionTime"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#RemoveDomain"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesrdp1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#removedDataProperty" : [ {
+    "@id" : "http://www.lexinfo.net/ontology/3.0/lexinfo#gener"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#RemoveDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/emolex-changesrsc1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/def/och#sourceRemoveSubClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#TimeNaming"
+  } ],
+  "http://w3id.org/def/och#targetRemoveSubClass" : [ {
+    "@id" : "https://w3id.org/def/emolex#RecognitionTime"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/def/och#RemoveSubClass"
+  } ]
+} ]

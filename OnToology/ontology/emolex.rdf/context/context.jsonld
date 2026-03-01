@@ -9,6 +9,9 @@
     "scopeNote" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
     },
+    "ErrorLDT" : {
+      "@id" : "https://w3id.org/def/emolex#ErrorLDT"
+    },
     "entry" : {
       "@id" : "http://www.w3.org/ns/lemon/lime#entry",
       "@type" : "@id"
@@ -46,18 +49,11 @@
       "@id" : "https://w3id.org/riverbench/schema/metadata#standardDeviation",
       "@type" : "http://www.w3.org/2001/XMLSchema#double"
     },
-    "RecognitionErrorPercentage" : {
-      "@id" : "https://w3id.org/def/emolex#RecognitionErrorPercentage"
-    },
     "Thing" : {
       "@id" : "http://www.w3.org/2002/07/owl#Thing"
     },
     "Anger" : {
       "@id" : "https://w3id.org/def/emolex#Anger"
-    },
-    "gener" : {
-      "@id" : "http://www.lexinfo.net/ontology/3.0/lexinfo#gener",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Dominance" : {
       "@id" : "https://w3id.org/def/emolex#Dominance"
@@ -71,9 +67,6 @@
     "canonicalForm" : {
       "@id" : "http://www.w3.org/ns/lemon/ontolex#canonicalForm",
       "@type" : "@id"
-    },
-    "RecognitionTime" : {
-      "@id" : "https://w3id.org/def/emolex#RecognitionTime"
     },
     "mean" : {
       "@id" : "https://w3id.org/riverbench/schema/metadata#mean",
@@ -97,6 +90,9 @@
     "Concept" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     },
+    "TimeLdt" : {
+      "@id" : "https://w3id.org/def/emolex#TimeLdt"
+    },
     "Lexicon" : {
       "@id" : "http://www.w3.org/ns/lemon/lime#Lexicon"
     },
@@ -106,8 +102,9 @@
     "Expression" : {
       "@id" : "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#Expression"
     },
-    "TimeTdl" : {
-      "@id" : "https://w3id.org/def/emolex#TimeTdl"
+    "gender" : {
+      "@id" : "http://www.lexinfo.net/ontology/3.0/lexinfo#gender",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "EmotionalDimension" : {
       "@id" : "https://w3id.org/def/emolex#EmotionalDimension"
@@ -176,6 +173,9 @@
     "etimology" : {
       "@id" : "http://www.lexinfo.net/ontology/3.0/lexinfo#etimology",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "BehavioralMeasures" : {
+      "@id" : "https://w3id.org/def/emolex#BehavioralMeasures"
     },
     "ObjectiveAcquisitionAge" : {
       "@id" : "https://w3id.org/def/emolex#ObjectiveAcquisitionAge"
